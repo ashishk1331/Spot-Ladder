@@ -1,0 +1,270 @@
+:root{
+  --primary: #000;
+  --secondary: #1ED760;
+  --light-primary: #828282;
+  --white: #ECEBE8;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+html,body,#app{
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+/* utilities */
+.flex-center{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.flex-col{
+  display: flex;
+  flex-direction: column;
+}
+.m-auto{
+  margin: auto;
+}
+.mr-auto{
+  margin-right: auto;
+}
+.m-2{
+  margin: 1.2em;
+}
+.mx-2{
+  margin: 0.4em 0;
+}
+.my-2{
+  margin: 0 0.4em;
+}
+.ml-1-4{
+  margin-left: 0.25em;
+}
+.font-1-4{
+  font-size: 1.4em;
+}
+.font-1-2{
+  font-size: 1.2em;
+}
+
+/* elements */
+svg{
+  width: 1.4em;
+  height: 1.4em;
+  fill: var(--secondary);
+}
+button{
+  background: none;
+  color: var(--secondary);
+  border: 0.125em solid var(--secondary);
+  border-radius: 4px;
+  padding: 0.5em 1.6em;
+  outline: none;
+  cursor: pointer;
+}
+button[data-type='icon']{
+  border: none;
+  padding: 0.4em;
+}
+header{
+  width: 100%;
+  max-width: 1080px;
+  height: 5.2em;
+  padding: 0 2em;
+}
+
+/* elemental classes */
+.header__logo{
+  width: 16em;
+}
+.profile__image{
+  width: 6em;
+  height: 6em;
+  border-radius: 50%;
+}
+.profile__username{
+  width: auto;
+  align-items: flex-start;
+}
+.profile__div{
+  margin: 2em 0;
+}
+.profile__image{
+  margin-right: 1em;
+}
+.blends{
+  margin: 2em 0;
+  align-items: center;
+}
+.blends__bottomrow{
+  margin-top: 1em;
+}
+.leaderboard__item--image{
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+  margin: 0 1.4em;
+}
+.leaderboard__item , .leaderboard__header{
+  width: 75%;
+  max-width: 720px;
+}
+.leaderboard__header{
+  padding: 1.4em 0;
+}
+.leaderboard__item{
+  padding: 0.75em 0;
+}
+.leaderboard__item--star{
+  width: 1.4em;
+  height: 1.4em;
+}
+.leaderboard__item--star[data-type="first"]{
+  fill: var(--secondary);
+}
+.leaderboard__item--star[data-type="second"]{
+  fill: var(--light-primary);
+}
+.leaderboard__item--rank{
+  width: 1em;
+}
+.loader{
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary);
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.loader__body > svg{
+  width: 2em;
+  height: 2em;
+  animation: rotation 800ms linear 0s infinite;
+}
+@keyframes rotation{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+.loader__body > svg > path{
+  stroke: var(--secondary);
+  stroke-width: 2em;
+}
+
+.login{
+  padding-top: 4em;
+  width: 75%;
+  max-width: 560px;
+}
+.login__headline{
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 1em;
+  margin-top: 0.25em;
+}
+.login > img{
+  width: 3.2em;
+  height: 3.2em;
+}
+.login__btn{
+  text-align: center;
+}
+.login__btn > p{
+  margin-bottom: 0.5em;
+}
+#logIn{
+  width: 50%;
+  border: none;
+  background-color: var(--secondary);
+  color: var(--primary);
+}
+#logIn > div > svg{
+  fill: var(--primary);
+  width: 2em;
+  height: 2em;
+}
+#logIn > div >p{
+  margin-left: 0.75em;
+  font-weight: 600;
+}
+#logIn--inp{
+  width: 80%;
+  height: 2.4em;
+  border: none;
+  background: var(--white);
+  border-radius: 10px;
+  padding: 0 1em;
+  outline: none;
+  margin-bottom: 0.75em;
+}
+.logIn--check{
+  width: 75%;
+  margin-bottom: 2em;
+}
+.message{
+  position: absolute;
+  top: 100%;
+  left: 100%;
+  transform: translate(calc(-100% - 0.75em),calc(-100% - 0.75em));
+  width: 50%;
+  height: 60px;
+  max-width: 280px;
+  background-color: var(--secondary);
+  color: var(--primary);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: visibility 300ms;
+}
+.message > svg{
+  fill: var(--primary);
+  margin: 0 0.75em;
+}
+.message__text{
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+
+/* media queries */
+@media only screen and (max-width: 486px) {
+  *{
+    font-size: 12px;
+  }
+  header{
+    padding: 0 1em;
+  }
+  .login__headline{
+    font-size: 2.4em;
+  }
+  .header__logo{
+    width: 12em;
+  }
+  button{
+    padding: 0.5em 1.6em;
+  }
+  button[data-type='icon']{
+    padding: 0;
+    margin: 0.8em;
+  }
+  #logIn--inp , .logIn--check{
+    width: 100%;
+  }
+  #logIn{
+    width: 80%;
+  }
+  .message{
+    height: 40px;
+  }
+}

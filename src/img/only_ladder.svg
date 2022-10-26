@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="77mm"
+   height="77mm"
+   viewBox="0 0 77 76.999999"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="only_ladder.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="true"
+     inkscape:document-units="mm"
+     showgrid="false"
+     showborder="true"
+     inkscape:zoom="0.5026827"
+     inkscape:cx="-36.80254"
+     inkscape:cy="237.72451"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:object-paths="false"
+     height="76mm" />
+  <defs
+     id="defs2">
+    <filter
+       id="selectable_hidder_filter"
+       width="1"
+       height="1"
+       x="0"
+       y="0"
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="LPE boolean visibility">
+      <feComposite
+         id="boolops_hidder_primitive"
+         result="composite1"
+         operator="arithmetic"
+         in2="SourceGraphic"
+         in="BackgroundImage"
+         k1="0"
+         k2="0"
+         k3="0"
+         k4="0" />
+    </filter>
+    <inkscape:path-effect
+       effect="bool_op"
+       id="path-effect949"
+       is_visible="true"
+       lpeversion="1"
+       operand-path=""
+       operation="cut"
+       swap-operands="false"
+       rmv-inner="false"
+       filltype-this="from-curve"
+       filter=""
+       filltype-operand="from-curve" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-3.2024357,-120.38777)">
+    <path
+       id="path1001"
+       style="fill:#ffffff;stroke-width:6.00001;stroke-linecap:round"
+       d="m 40.749001,121.26644 a 37.633499,37.633499 0 0 0 -25.65734,11.01072 37.633499,37.633499 0 0 0 0,53.22154 37.633499,37.633499 0 0 0 53.22155,0 37.633499,37.633499 0 0 0 0,-53.22154 37.633499,37.633499 0 0 0 -27.56421,-11.01072 z m -11.51454,19.08723 c 1.108,0 1.99988,0.89186 1.99988,1.99988 v 7.4662 h 20.93619 v -7.41971 c 0,-1.108 0.89187,-1.99988 1.99988,-1.99988 1.108,0 1.99987,0.89188 1.99987,1.99988 v 33.02227 c 0,1.108 -0.89187,1.99988 -1.99987,1.99988 -1.10801,0 -1.99988,-0.89188 -1.99988,-1.99988 v -7.42021 h -20.93619 v 7.37373 c 0,1.10799 -0.89188,1.99985 -1.99988,1.99985 -1.108,0 -1.99988,-0.89186 -1.99988,-1.99985 v -33.02228 c 0,-1.10802 0.89188,-1.99988 1.99988,-1.99988 z m 1.99988,13.46634 v 10.18233 h 20.93619 v -10.18233 z" />
+  </g>
+</svg>

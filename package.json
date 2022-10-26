@@ -1,0 +1,15 @@
+{
+  "name": "gams",
+  "version": "1.0.0",
+  "description": "A leaderboard app.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Ashish Khare",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  }
+}
