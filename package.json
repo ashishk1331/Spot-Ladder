@@ -4,7 +4,8 @@
   "description": "A leaderboard app.",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "run dev": "nodemon index.js",
+    "start":"node index.js"
   },
   "author": "Ashish Khare",
   "license": "ISC",
