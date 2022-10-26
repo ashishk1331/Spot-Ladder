@@ -274,8 +274,8 @@ let appController = (function(){
 	userId = nwo0j3ix1j5mbwl0l3anytu29
 */
 const spotify = (function(){
-	const client_id = '62bb3f339be64b24bc12603fd53fbd2d';
-    const client_secret = '4a847bb1511644fea51fd78f61acdfc1';
+	const client_id = 'client_id';
+    const client_secret = 'client_secret';
     const base_url = 'https://api.spotify.com/v1';
 
     const _getToken = async () =>{
@@ -454,9 +454,3 @@ window.addEventListener('hashchange', (e) => {
 	hydrate.init();
 });
 hydrate.init();
-
-
-// ashuzon = localhost:8080/#userID=nwo0j3ix1j5mbwl0l3anytu29
-// aastha  = localhost:8080/#userID=h8zu46arv6ihi6ocuagg2wblq
-// yash    = localhost:8080/#userID=31jxihudg5sohyltalv2yeauzewi
-// akshat  = localhost:8080/#userID=kj90oqx05h1j7ckrp8tsggdit
